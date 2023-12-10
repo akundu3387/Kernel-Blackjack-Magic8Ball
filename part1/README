@@ -1,0 +1,24 @@
+
+
+Part 1: Magic 8 Ball Kernel Module
+
+
+Overview
+Part 1 involves creating a Linux kernel module that functions as a Magic 8 Ball. It provides random responses to user queries.
+
+Installation
+Compile the module: make
+Insert the module: sudo insmod magic8ball.ko
+
+
+Usage
+To interact with the Magic 8 Ball, write a question to the device file and then read the response.
+Example:
+cat /dev/magic8ball
+
+Features
+The module registers a character device to handle user queries.
+It randomly selects a response from a predefined list of Magic 8 Ball phrases.
+
+Removal
+Remove the module: sudo rmmod magic8ball
