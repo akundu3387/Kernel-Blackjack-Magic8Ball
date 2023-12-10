@@ -1,6 +1,11 @@
 Blackjack Kernel Module
 
 
+Installation
+Compile the module: make
+Insert the module: sudo insmod blackjack.ko
+Run the commands listed below
+
 **Overview**
 
 This Linux kernel module implements a basic Blackjack game. Users can interact with the game via command-line, issuing commands to control the game flow, including dealing, hitting, and standing.
