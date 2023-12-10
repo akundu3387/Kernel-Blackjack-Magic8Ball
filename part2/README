@@ -1,0 +1,26 @@
+Blackjack Kernel Module
+
+
+**Overview**
+
+This Linux kernel module implements a basic Blackjack game. Users can interact with the game via command-line, issuing commands to control the game flow, including dealing, hitting, and standing.
+
+
+**Commands** (Must be All Caps)
+
+RESET: Resets the game and prepares for a new round.
+SHUFFLE: Shuffles the deck of cards.
+DEAL: Deals cards to the player and dealer.
+HIT: Deals an additional card to the player.
+STAND: Ends the player's turn and proceeds to resolve the game.
+
+
+**Usage**
+
+Interact with the game by echoing commands to /dev/blackjack and reading the game state with cat /dev/blackjack.
+
+Example:
+echo "RESET" > /dev/blackjack
+echo "SHUFFLE" > /dev/blackjack
+echo "DEAL" > /dev/blackjack
+echo "STAND" > /dev/blackjack
