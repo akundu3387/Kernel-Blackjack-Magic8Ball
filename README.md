@@ -1,1 +1,8 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/vlIJpeAe)
+I have created virtual device drivers as Linux loadable kernel modules. Each of these modules implements a virtual character device designed to perform a specific task
+
+
+In these two parts, I will be using a loadable kernel module to implement:
+1: A Magic 8 Ball response system. (Similar to the toy)
+2. A fully functional Blackjack game
+
+There will be sperate Readme's for  each part with more details on how it is implemented.
