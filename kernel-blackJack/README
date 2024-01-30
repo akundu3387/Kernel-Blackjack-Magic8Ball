@@ -1,7 +1,7 @@
 Blackjack Kernel Module
 
 
-Installation
+**Installation**
 Compile the module: make
 Insert the module: sudo insmod blackjack.ko
 Run the commands listed below
